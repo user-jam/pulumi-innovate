@@ -1,0 +1,10 @@
+name: pulumi-pb1
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: Creacion de inf. con pulumi y aws
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
